@@ -1,4 +1,4 @@
-package com.tripsdev.BoatTrips.dto;
+package com.tripsdev.boattrip.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

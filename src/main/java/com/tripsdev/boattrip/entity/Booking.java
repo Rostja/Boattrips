@@ -1,4 +1,4 @@
-package com.tripsdev.BoatTrips.entity;
+package com.tripsdev.boattrip.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Future;
@@ -34,6 +34,7 @@ public class Booking {
 
     private int totalNumOfGuests;
 
+    private String bookingConfigurationCode;
     private String bookingConfirmationCode;
 
     @ManyToOne(fetch = FetchType.EAGER)

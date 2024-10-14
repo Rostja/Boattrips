@@ -1,4 +1,4 @@
-package com.tripsdev.BoatTrips.exception;
+package com.tripsdev.boattrip.exception;
 
 public class OurException extends RuntimeException{
     public OurException(String message){

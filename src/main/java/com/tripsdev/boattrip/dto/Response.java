@@ -1,9 +1,8 @@
-package com.tripsdev.BoatTrips.dto;
+package com.tripsdev.boattrip.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @Data
